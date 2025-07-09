@@ -1,0 +1,18 @@
+.left-header span {
+    background: none;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.right-header ul {
+    padding: 0 15px;
+}
