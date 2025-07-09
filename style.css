@@ -1,0 +1,171 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: rgb(39, 8, 10);
+    color: rgb(115, 235, 235);
+}
+
+header .right-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-header span {
+    background: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(115, 235, 235);
+}
+
+span {
+    background-color: hsla(39, 100%, 60%, 0.5);
+    border-radius: 10px;
+    padding: 1px 14px;
+    padding-bottom: 2px;
+    margin: 4px 0;
+    display: inline-block;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px ;
+}
+
+.hero-section {
+    color: rgb(248, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(84, 1, 7);
+    gap: 25px;
+    padding: 50px 140px;
+    padding-bottom: 125px;
+    background-image: url(./images/programming-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    flex: 0;
+    justify-content: center;
+}
+
+.profile-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hero-text {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0; */
+    text-align: center;
+}
+
+.hero-text h2 {
+    margin: 0;
+} 
+
+.lang-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    background-color: hsla(0, 76%, 85%, .46);
+}
+
+.lang-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* gap: 50px; */
+    width: 100%;
+}
+
+.lang-logo {
+    height: 52px;
+    width: auto;
+}
+
+.lang-logo#pg {
+    width: 100px;
+    height: auto;
+}
+/* 
+.lang-logo#git {
+    width: 52px;
+    height: auto;
+}
+
+.lang-logo#gh {
+    width: 52px;
+    height: auto;
+} */
+
+
+footer {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 50px;
+    background-color: rgb(62, 30, 32);
+    color: rgb(115, 235, 235);
+}
+
+footer * {
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .social-logo {
+    height: 30px;
+    width: 30px;
+}
+
+footer p {
+    margin: 2px;
+}
