@@ -16,3 +16,8 @@
 .right-header ul {
     padding: 0 15px;
 }
+
+.edcn-section img {
+    max-width: 50px;
+    border-radius: 50%;
+}
