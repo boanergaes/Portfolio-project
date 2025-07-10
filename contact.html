@@ -8,7 +8,9 @@
 <body>
     <header>
         <div class="left-header">
+            <!-- logo -->
             <h1>MY PORTFOLIO</h1>
+            <!-- current page -->
             <span>Contact</span>
         </div>
         <div class="right-header">
@@ -39,6 +41,7 @@
             <br><br>
 
             <label for="gender">Gender:</label>
+            <!-- name of both radios must be the same inorder for them to be considered the same group -->
             <input type="radio" name="gender" id="gender" value="m">M
             <input type="radio" name="gender" id="gender" value="f">F
 
@@ -67,12 +70,17 @@
                 <option value="+251">+251</option>
                 <option value="+300">+300</option>
             </select>
-            <input type="number" name="pno" id="pno" max="999999999" minlength="0">
+            <input type="number" name="pno" id="pno" max="999999999" minlength="0" placeholder="enter your phone number">
 
             <br><br>
 
             <label for="feedback">FeedBack:</label> <br>
             <input type="text" name="feedback" id="feedback" placeholder="write your feedback here" maxlength="100">
+
+            <br><br>
+
+            <label for="lvl">Your level of satisfaction with my website:</label> <br>
+            <input type="range" name="satisfaction" id="lvl">
 
             <br><br>
 
@@ -97,6 +105,7 @@
         <div>
             <p>Reach out through</p>
             <p>mebitzeamanuel@gmail.com</p>
+            <!-- list of contact links -->
             <ul>
                 <li>
                     <a href="https://github.com/boanergaes" target="_blank"><img src="./images/github-logo-removebg-preview.png" alt="github"></a>
