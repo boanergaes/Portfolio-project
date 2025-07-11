@@ -15,3 +15,7 @@ A portfolio project: nexus tutorial bootcamp
 - project repo links:
     minigit: https://github.com/boanergaes/MiniGitProject
     password generator: https://github.com/boanergaes/passwordGenerator-GUI    
+
+
+
+i find easy to use hsl/hsla colors.
