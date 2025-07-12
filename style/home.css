@@ -40,55 +40,63 @@ button:hover {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 30px;
     background-color: hsl(0, 0%, 9%);
     color: hsl(189, 60%, 82%);
 }
 
-.left-header {
+.header-wrapper {
+    display: flex;
+    width: 1350px;
+}
+
+/* .left-header {
     display: flex;
     align-items: center;
     gap: 18px;
-}
-
-.logo-part h1 {
-    margin: 0;
-    padding: 0;
-}
-.logo-part p {
-    margin: 0;
-    padding: 0;
-}
-
-.left-header span {
-    background-color: none;
-}
+} */
 
 .right-header {
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
 }
 
 .right-header ul {
     display: flex;
-    flex: row;
+    flex-direction: row;
     gap: 8px;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .nav li {
     display: inline-block;
     margin: 2px;
-    padding: 3px 9px;
+    padding: 8px 14px;
     border-radius: 15px;
 }
 
 .nav li:hover {
     background-color: hsl(0, 0%, 20%);
+}
+
+.nav .curr-page {
+    background-color: white;
+    color: black;
+}
+
+.nav .curr-page:hover {
+    background-color: white;
+    color: black;
 }
 
 .hero-wrapper {
@@ -116,15 +124,20 @@ header {
 .hero>img {
     border-radius: 50%;
     height: 300px;
-    width: 300px;
+    width: 280px;
     padding-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 
 
 .hero p {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .hero abbr {

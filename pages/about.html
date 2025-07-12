@@ -3,243 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
+    <title>My portfolio/About me</title>
+    <link rel="stylesheet" href="../style/about.css">
 </head>
 <body>
     <header>
-            <div class="right-header">
-                <div class="logo-part">
-                    <h1 id="logo">MY PORTFOLIO</h1>
-                    <span class="nobg">boanergaes</span>
-                </div>
-                <span class="nobg">About</span>
-            </div>
+        <div class="header-wrapper">
             <div class="left-header">
+                <a href="../index.html">
+                    <div class="logo-part">
+                        <h1>MY PORTFOLIO</h1>
+                        <p>boanergaes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="right-header">
                 <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    <ul class="nav">
+                        <a href="../index.html"><li>Home</li></a>
+                        <a href="./about.html"><li class="curr-page">About</li></a>
+                        <a href="./contact.html"><li>Contact</li></a>
                     </ul>
                 </nav>
-                <div>
-                    <img src="./images/lion-profile.jpg" alt="profile picture">
-                </div>
             </div>
-        </header>
-        <!-- Bio -->
-        <section class="bio-section">
-            <h3>BIOGRAPHY</h3>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nulla eius unde commodi aut minus aperiam quis non omnis, possimus animi alias totam? Dolorum pariatur veniam autem et harum eligendi? <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis totam optio vel consectetur cumque, molestiae, voluptas nisi autem repellat quibusdam a. Quidem corrupti sunt quaerat mollitia enim molestiae temporibus.
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quos necessitatibus earum assumenda ut ad, quis sit! Atque praesentium reprehenderit aliquam sunt consequuntur rem eum odit error, provident est voluptatibus? <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, perferendis quo natus nobis magnam maxime ducimus fugit doloremque voluptatem earum in, temporibus doloribus, illum labore? A id corrupti omnis reprehenderit?
-            </p>
-        </section>
+        </div>
+    </header>
+    <section>
+        <div class="body-wrapper">
+            <div class="inner-wrapper">
+                <div class="bio-section">
+                    <h3>BIO</h3>
+                    <p>
+                        I grew up in Debre Markos, East Gojjam, and attended three different schools to 
+                        complete my elementary and high school education. Interestingly, I had no interest 
+                        in programming while growing up—in fact, I wrote my first "Hello, World!" program 
+                        only after joining Engineering at Addis Ababa University.
+                    </p>
+                    <p>
+                        I always wanted to join Medical school as a kid and even came to Addis Ababa University 
+                        hopping to join Tkur Anbessa Med School. Fortunately, I didn’t pass the entrance exam—and 
+                        instead found myself in the Engineering department. Getting into Software Engineering 
+                        at AAU wasn’t easy, but by God’s grace, I got it.
+                    </p>
+                    <p>
+                        Now, I’m on the path to becoming a Software Engineer. Now that I have been coding for some time, 
+                        I’ve come to see programming as an interesting and challenging craft. It's worth every 
+                        time and effort put on it. I'm currently focused on web development and it's going great so far. 
+                        With God's help, I aim to make the most of the opportunity I’ve been given.
+                    </p>
+                </div>
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="education-card">
+                        <div class="image-section">
+                            <img src="../images/education/aauLogo-removebg-preview.png" alt="AAU logo">
+                        </div>
+                        <div class="text-section">
+                            <h4 class="education-title">Addis Ababa University</h4>
+                            <p>Bsc. in Software Engineering (will graduate in 2028)</p>
+                            <p>
+                                As a software engineering student at Addis Ababa University, I’ve completed courses 
+                                in Programming Fundamentals, Data Structures and Algorithms (DSA), 
+                                Object-Oriented Programming (OOP), Computer Networking, and Database Systems so far. 
+                                Through these courses and various projects, I’ve developed strong skills 
+                                in problem-solving, collaboration, and practical software development.
+                                Beyond academics, university life has taught me valuable lessons in time management, 
+                                hard work, social interaction, and living and working 
+                                with people from diverse backgrounds.
+                            </p>
 
-        <!-- Education -->
-        <section class="edcn-section">
-            <h3>EDUCATION</h3>
-            <div class="aau edu-card">
-                <div class="image">
-                    <img src="./images/aauLogo-removebg-preview.png" alt="aau-logo">
-                </div>
-                <div class="desc">
-                    <h4>Addis Ababa University</h4>
-                    <p>Bsc in Software Engineering</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nesciunt animi eum aperiam sit nisi, expedita cumque, alias consectetur vel sed qui odio rem omnis atque iusto? Mollitia, ab facilis?</p>
-                    <h5>Skills Learned:</h5>
-                    <ul>
-                        <li>first skill</li>
-                        <li>second skill</li>
-                        <li>third skill</li>
-                        <li>fourth skill</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="nexus edu-card">
-                <div class="image">
-                    <img src="./images/nexus-logo.jpg" alt="nexus-logo">
-                </div>
-                <div class="desc">
-                    <h4>Nexus Tutorial</h4>
-                    <p>Front-End Bootcamp</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nesciunt animi eum aperiam sit nisi, expedita cumque, alias consectetur vel sed qui odio rem omnis atque iusto? Mollitia, ab facilis?</p>
-                    <div class="cirtificate">
-                        <h5>cirtification</h5>
-                        <img class="certificate-img" src="" alt="nexus cirtificate">
+                        </div>
                     </div>
-                    <h5>Skills Learned:</h5>
-                    <ul>
-                        <li>first skill</li>
-                        <li>second skill</li>
-                        <li>third skill</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="udacity edu-card">
-                <div class="image">
-                    <img src="./images/udacity-logo.png" alt="udacity-logo">
-                </div>
-                <div class="desc">
-                    <h4>Udacity | 5 Million Ethiopian Coders Initiative</h4>
-                    <p>Programming Fundamentals</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nesciunt animi eum aperiam sit nisi, expedita cumque, alias consectetur vel sed qui odio rem omnis atque iusto? Mollitia, ab facilis?</p>
-                    <div class="cirtificate">
-                        <h5>cirtification</h5>
-                        <img class="certificate-img" src="./images/udacity-certificate.jpg" alt="udacity cirtificate">
+                    <div class="education-card">
+                        <div class="image-section">
+                            <img src="../images/education/top-logo.webp" alt="Nexus logo">
+                        </div>
+                        <div class="text-section">
+                            <h4 class="education-title">The Odin Project</h4>
+                            <p>Front-End Developement Basics</p>
+                            <p>
+                                An excellent open-source resource for learning web development. It taught me how to use the 
+                                command line effectively and understand the fundamentals of version control with Git and GitHub. 
+                                The platform includes numerous hands-on projects and exercises that helped me sharpen my front-end 
+                                development skills through real-world practice.
+                            </p>
+                        </div>
                     </div>
-                    <h5>Skills Learned:</h5>
-                    <ul>
-                        <li>first skill</li>
-                        <li>second skill</li>
-                        <li>third skill</li>
-                        <li>third skill</li>
-                    </ul>
+                    <div class="education-card">
+                        <div class="image-section">
+                            <img src="../images/education/udacity-logo.png" alt="udacity-logo">
+                        </div>
+                        <div class="text-section">
+                            <h4 class="education-title">Udacity | 5 Million Ethiopian Coders Initiative</h4>
+                            <p>Programming Foundamentals</p>
+                            <p>
+                               This program helped kick-start my front-end development journey. The courses are highly detailed 
+                               and helped me understand basic concepts in HTML, CSS, JavaScript, and how the web works in general 
+                               entirely from scratch. I gained a pretty good understanding of the web, front-end and 
+                               I also completed some projects along the way. I successfully earned a certificate upon completion.
+                            </p>
+                            <br>
+                            <div>
+                                <a href="./cridentials/udacity.html" target="_blank">
+                                    <img class="cirtificate" src="../images/education/udacity-certificate.jpg" alt="udacity cirtificate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="image-section">
+                            <img src="../images/education/nexus-logo.jpg" alt="Nexus logo">
+                        </div>
+                        <div class="text-section">
+                            <h4 class="education-title">Nexus Tutorial</h4>
+                            <p>Front-End Development Summer Bootcamp</p>
+                            <p>
+                              Participated in a summer bootcamp focused on HTML, CSS, and JavaScript. Built several 
+                              front-end projects that helped strengthen my understanding of web development fundamentals 
+                              and improve my practical coding skills. I also strengthened my experience with version 
+                              control using Git and GitHub, working more confidently with code management and 
+                              collaboration workflows.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-section-about">
+                    <div class="cta-container-about">
+                        <div class="cta-card-about">
+                            <div class="cta-img-container">
+                                <img src="../images/contact-link-imgs/github-logo-white.png" alt="github">
+                            </div>
+                            <up>Want to see my projects?</up>
+                            <a href="https://github.com/boanergaes" target="_blank">
+                                <button class="cta-button-about">Checkout my GitHub »</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cta-container-about">
+                        <div class="cta-card-about">
+                            <div class="cta-img-container">
+                                <img src="../images/lion-on-cliff.PNG" alt="lion on cliff">
+                            </div>
+                            <up>Have Questions for me?</up>
+                            <a href="./contact.html">
+                                <button class="cta-button-about">Contact me »</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cta-container-about last">
+                        <a href="../index.html">
+                            <button class="home-button cta-button-about">Go to Home</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="top edu-card">
-                <div class="image">
-                    <img src="./images/top-logo.webp" alt="top-logo">
+        </div>
+    </section>
+
+    <footer>
+        <div class="left-footer">
+            <p>Zeamanuel Mebit</p>
+            <p>AAU</p>
+            <p>AAiT/CTBE</p>
+            <p>Addis Ababa, Ethiopia</p>
+        </div>
+        <div class="middle-footer">
+            <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
+        </div>
+        <div class="right-footer">
+            <p>Reach me through</p>
+            <div class="contact-container">
+                <div class="email-img contact-list">
+                    <img src="../images/contact-link-imgs/gmail-logo-removebg-preview.PNG" alt="gmail-logo">
                 </div>
-                <div class="desc">
-                    <h4>The Odin Project</h4>
-                    <p>Front-End Developement Basics</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, nesciunt animi eum aperiam sit nisi, expedita cumque, alias consectetur vel sed qui odio rem omnis atque iusto? Mollitia, ab facilis?</p>
-                    <h5>Skills Learned:</h5>
-                    <ul>
-                        <li>first skill</li>
-                        <li>second skill</li>
-                        <li>third skill</li>
-                        <li>third skill</li>
-                    </ul>
+                <p class="email">
+                    <a href="">mebitzeamanuel@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="phone-img contact-list">
+                    <img src="../images/contact-link-imgs/phone-call-white-icon.png" alt="phone-icon">
                 </div>
+                <p>+251 94 840 3954</p>
             </div>
-         </section>
-
-        <!-- Technical skills -->
-         <section class="skill-section">
-            <h3>Technical Skills</h3>
-            <p>Here is a brief list of my technical skills.</p>
-            <table>
-                <tr>
-                    <th>Core concepts</th>
-                    <td><span>DSA</span> <span>OOP</span> <span>Networking basics</span></td>
-                </tr>
-                <tr>
-                    <th>Languages</th>
-                    <td><span>C++</span> <span>Python</span> <span>Java</span> <span>JavaScript</span></td>
-                </tr>
-                <tr>
-                    <th>Tools</th>
-                    <td><span>Git</span> <span>GitHub</span> <span>VS-Code</span> <span>JetBrains</span></td>
-                </tr>
-                <tr>
-                    <th>Web</th>
-                    <td><span>HTML</span> <span>CSS</span> <span>JavaScript</span></td>
-                </tr>
-                <tr>
-                    <th>Competitive Programming</th>
-                    <td><span>LeetCode</span></td>
-                </tr>
-                <tr>
-                    <th>Database</th>
-                    <td><span>PostgreSQL</span></td>
-                </tr>
-                <tr>
-                    <th>Soft Skills</th>
-                    <td><span>Team Work</span> <span>Leadership</span> <span>Critical Thinking</span> <span>Problem Solving</span> <span>Communication</span></td>
-                </tr>
-            </table>
-            <div class="lang-list">
-                <ul>
-                    <li><img class="lang-logo" src="./images/Python-logo-removebg-preview.png" alt="python"></li>
-                    <li><img class="lang-logo" src="./images/js-logo-removebg-preview.png" alt="javascript"></li>
-                    <li><img class="lang-logo" src="./images/cpp-logo-removebg-preview.png" alt="c++"></li>
-                    <li><img class="lang-logo" src="./images/java-logo-removebg-preview.png" alt="java"></li>
-                    <li><img class="lang-logo" src="./images/html-logo-removebg-preview.png" alt="HTML"></li>
-                    <li><img class="lang-logo" src="./images/css-logo-removebg-preview.png" alt="CSS"></li>
-                    <li><img class="lang-logo" src="./images/pgsql-logo-removebg-preview.png" alt="postgreSQL"></li>
-                    <li><img class="lang-logo" src="./images/git-logo-removebg-preview.png" alt="git"></li>
-                    <li><img class="lang-logo" src="./images/github-logo-removebg-preview.png" alt="GitHub"></li>
-                </ul>
-            </div>
-         </section>
-
-        <!-- Certifications -->
-         <section class="cert-section">
-
-         </section>
-
-        <!-- Hobbies -->
-         <section class="hobb-section">
-            <h3>Aims & Hobbies</h3>
-            <p>Here are my long and short term goals. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ad ullam odio facilis.</p>
-            <ul>
+            <ul class="contact-list">
                 <li>
-                    Short term Goals
-                    <ol> 
-                        <li>aim one</li>
-                        <li>aim two</li>
-                        <li>aim three</li>
-                        <li>aim four</li>
-                    </ol>
+                    <a href="https://github.com/boanergaes" target="_blank">
+                        <img src="../images/contact-link-imgs/github-logo-white.png" alt="github">
+                    </a>
                 </li>
                 <li>
-                    Long term Goals
-                    <ol>
-                        <li>aim one</li>
-                        <li>aim two</li>
-                        <li>aim three</li>
-                    </ol>
+                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank">
+                        <img src="../images/contact-link-imgs/instagram-logo-white-logo-instagram-png-putih-transparent-removebg-preview.PNG" alt="instagram">
+                    </a>
                 </li>
-            </ul>
-            <p>Here are my hobbies. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam aut sit aliquid.</p>
-            <ul>
-                <li>Watching movies</li>
-                <li>Sketching (I am descent at it. Not that good.)</li>
-                <li>Singing (I have an awful voice)</li>
-            </ul>
-         </section>
-
-        <footer>
-            <div class="left-footer">
-                <p>Zeamanuel Mebit</p>
-                <p>AAU</p>
-                <p>AAiT/CTBE</p>
-                <p>Addis Ababa, Ethiopia</p>
-            </div>
-            <div class="middle-footer">
-                <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
-            </div>
-            <div class="right-footer">
-                <p>Reach out through</p>
-                <p>mebitzeamanuel@gmail.com</p>
-                <ul>
-                    <li>
-                        <a href="https://github.com/boanergaes" target="_blank"><img class="social-logo" src="./images/github-logo-removebg-preview.png" alt="github"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank"><img class="social-logo" src="./images/ig-logo-removebg-preview.png" alt="instagram"></a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank"><img class="social-logo" src="./images/tg-logo-removebg-preview.png" alt="telegram"></a>
-                    </li>
-                    <li>
-                        <a href="https://x.com/the_aman12" target="_blank"><img class="social-logo" src="./images/x-logo-removebg-preview.png" alt="X"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank"><img class="social-logo" src="./images/linkedin-logo-removebg-preview.png" alt="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="https://leetcode.com/u/boanergaes/" target="_blank"><img class="social-logo" src="./images/leetcode-logo-removebg-preview.png" alt="leetcode"></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+                <li>
+                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank">
+                        <img src="../images/contact-link-imgs/linkedin-square-white-icon-transparent-png-701751694974206tsxnbf2rft-removebg-preview.PNG" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank">
+                        <img src="../images/contact-link-imgs/telegram-icon-removebg-preview.png" alt="telegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/the_aman12" target="_blank">
+                        <img src="../images/contact-link-imgs/twitter-x-logo-white-logo-icon-hd-png-11690219118qg0z3hfxjk-removebg-preview.PNG" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/u/boanergaes/" target="_blank">
+                        <img src="../images/contact-link-imgs/leetcode-logo-white-removebg-preview.PNG" alt="leetcode">
+                    </a>
+                </li>
+            </ul>  
+        </div>
+    </footer>
 </body>
 </html>
