@@ -3,90 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
+    <title>My Portfolio/Contact me</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/about.css">
 </head>
 <body>
     <header>
-        <div class="left-header">
-            <h1>MY PORTFOLIO</h1>
-            <span>Contact</span>
-        </div>
-        <div class="right-header">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-            <div>
-                <img src="./images/lion-profile.jpg" alt="profile picture">
+        <div class="header-wrapper">
+            <div class="left-header">
+                <a href="../index.html">
+                    <div class="logo-part">
+                        <h1>MY PORTFOLIO</h1>
+                        <p>boanergaes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="right-header">
+                <nav>
+                    <ul class="nav">
+                        <a href="../index.html"><li>Home</li></a>
+                        <a href="./about.html"><li>About</li></a>
+                        <a href="./contact.html"><li class="curr-page">Contact</li></a>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
+    <section>
+        <div class="body-wrapper">
+            <div class="inner-wrapper">
+                <div class="form-section">
+                    <form action="">
+                        <h2>Fill out this Form</h2>
+                        <label for="name">Name</label> <span class="req">*</span> <br>
+                        <input class="inp" type="text" name="name" id="name" placeholder="Enter your full name" required> 
 
+                        <br><br>
 
-    <section class="form-section">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis vero expedita impedit magnam. Tenetur id consequuntur et, quidem est, nihil dolor ratione laudantium ducimus sunt iste natus. Asperiores, veritatis?</p>
-        <form action="">
-            <h3>Contact Form</h3>
-            <label for="fname">First name:</label>
-            <input type="text" name="fname" id="fname" placeholder="enter your first name" required>
+                        <label for="description">Description</label> <span class="max-chars">(100 characters max)</span> <br>
+                        <textarea class="inp" name="description" id="description" maxlength="100" cols="45" placeholder="Short description about yourself"></textarea>
 
-            <br><br>
+                        <br><br>
 
-            <label for="lname">Last name:</label>
-            <input type="text" name="lname" id="lname" placeholder="enter your last name" required>
+                        <label for="email">Email</label><br>
+                        <input class="inp" type="email" name="email" id="email" placeholder="Enter your email" size="25">
 
-            <br><br>
+                        <br><br>
 
-            <label for="gender">Gender:</label>
-            <input type="radio" name="gender" id="gender" value="m">M
-            <input type="radio" name="gender" id="gender" value="f">F
+                        <label for="uname">Telegram username</label><br>
+                        <input class="inp" type="text" name="uname" id="uname" placeholder="@username">
 
-            <br><br>
+                        <br><br>
 
-            <label for="birthday">Birthday:</label>
-            <input type="date" name="birthday" id="birthday">
+                        <label for="pno">Phone number</label><br>
+                        <select class="inp" name="country-code" id="pno">
+                            <option value="+1">+1</option>
+                            <option value="+153">+153</option>
+                            <option value="+190">+190</option>
+                            <option value="+251">+251</option>
+                            <option value="+300">+300</option>
+                        </select>
+                        <input class="inp" type="tel" name="pno" id="pno" minlength="9" maxlength="9" placeholder="enter your phone number">
 
-            <br><br>
+                        <br><br>
 
-            <label for="age">Age:</label>
-            <input type="number" placeholder="age" id="age" name="age" min="10" max="99" required>
-
-            <br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="enter your email">
-
-            <br><br>
-
-            <label for="pno">Phone Number:</label>
-            <select name="code" id="pno">
-                <option value="+1">+1</option>
-                <option value="+123">+123</option>
-                <option value="+150">+150</option>
-                <option value="+251">+251</option>
-                <option value="+300">+300</option>
-            </select>
-            <input type="number" name="pno" id="pno" max="999999999" min="0">
-
-            <br><br>
-
-            <label for="feedback">FeedBack:</label> <br>
-            <input type="text" name="feedback" id="feedback" placeholder="write your feedback here" maxlength="100">
-
-            <br><br>
-
-            <input type="button" name="prev" id="prev" value="prev ">
-            <input type="button" name="next" id="next" value="next ">
-            <input type="reset" name="reset" id="reset">
-            <input type="submit" name="submit" id="submit">
-        </form>
+                        <label for="msg">Message </label><span class="max-chars">(500 characters max)</span> <span class="req">*</span> <br>
+                        <textarea class="inp" name="msg" id="msg" maxlength="500" rows="4" cols="45" placeholder="Your message..."></textarea>                        
+                        <br><br>
+                        <input class="inp submit-button" type="submit">
+                    </form>
+                </div>
+                <div class="cta-container-about last">
+                    <a href="../index.html">
+                        <button class="home-button cta-button-about">Go to Home</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-
-
     <footer>
         <div class="left-footer">
             <p>Zeamanuel Mebit</p>
@@ -98,28 +92,53 @@
             <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
         </div>
         <div class="right-footer">
-            <p>Reach out through</p>
-            <p>mebitzeamanuel@gmail.com</p>
-            <ul>
+            <p>Reach me through</p>
+            <div class="contact-container">
+                <div class="email-img contact-list">
+                    <img src="../images/contact-link-imgs/gmail-logo-removebg-preview.PNG" alt="gmail-logo">
+                </div>
+                <p class="email">
+                    <a href="">mebitzeamanuel@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="phone-img contact-list">
+                    <img src="../images/contact-link-imgs/phone-call-white-icon.png" alt="phone-icon">
+                </div>
+                <p>+251 94 840 3954</p>
+            </div>
+            <ul class="contact-list">
                 <li>
-                    <a href="https://github.com/boanergaes" target="_blank"><img class="social-logo" src="./images/github-logo-removebg-preview.png" alt="github"></a>
+                    <a href="https://github.com/boanergaes" target="_blank">
+                        <img src="../images/contact-link-imgs/github-logo-white.png" alt="github">
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank"><img class="social-logo" src="./images/ig-logo-removebg-preview.png" alt="instagram"></a>
+                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank">
+                        <img src="../images/contact-link-imgs/instagram-logo-white-logo-instagram-png-putih-transparent-removebg-preview.PNG" alt="instagram">
+                    </a>
                 </li>
                 <li>
-                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank"><img class="social-logo" src="./images/tg-logo-removebg-preview.png" alt="telegram"></a>
+                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank">
+                        <img src="../images/contact-link-imgs/linkedin-square-white-icon-transparent-png-701751694974206tsxnbf2rft-removebg-preview.PNG" alt="linkedin">
+                    </a>
                 </li>
                 <li>
-                    <a href="https://x.com/the_aman12" target="_blank"><img class="social-logo" src="./images/x-logo-removebg-preview.png" alt="X"></a>
+                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank">
+                        <img src="../images/contact-link-imgs/telegram-icon-removebg-preview.png" alt="telegram">
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank"><img class="social-logo" src="./images/linkedin-logo-removebg-preview.png" alt="linkedin"></a>
+                    <a href="https://x.com/the_aman12" target="_blank">
+                        <img src="../images/contact-link-imgs/twitter-x-logo-white-logo-icon-hd-png-11690219118qg0z3hfxjk-removebg-preview.PNG" alt="x">
+                    </a>
                 </li>
                 <li>
-                    <a href="https://leetcode.com/u/boanergaes/" target="_blank"><img class="social-logo" src="./images/leetcode-logo-removebg-preview.png" alt="leetcode"></a>
+                    <a href="https://leetcode.com/u/boanergaes/" target="_blank">
+                        <img src="../images/contact-link-imgs/leetcode-logo-white-removebg-preview.PNG" alt="leetcode">
+                    </a>
                 </li>
-            </ul>
+            </ul>  
         </div>
     </footer>
 </body>
