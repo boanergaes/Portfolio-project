@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio/Contact me</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="../style/about.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="left-header">
+                <a href="../index.html">
+                    <div class="logo-part">
+                        <h1>MY PORTFOLIO</h1>
+                        <p>boanergaes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="right-header">
+                <nav>
+                    <ul class="nav">
+                        <a href="../index.html"><li>Home</li></a>
+                        <a href="./about.html"><li>About</li></a>
+                        <a href="./contact.html"><li class="curr-page">Contact</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="body-wrapper">
+            <div class="inner-wrapper">
+                <div class="form-section">
+                    <form action="">
+                        <h2>Fill out this Form</h2>
+                        <label for="name">Name</label> <span class="req">*</span> <br>
+                        <input class="inp" type="text" name="name" id="name" placeholder="Enter your full name" required> 
+
+                        <br><br>
+
+                        <label for="description">Description</label> <span class="max-chars">(100 characters max)</span> <br>
+                        <textarea class="inp" name="description" id="description" maxlength="100" cols="45" placeholder="Short description about yourself"></textarea>
+
+                        <br><br>
+
+                        <label for="email">Email</label><br>
+                        <input class="inp" type="email" name="email" id="email" placeholder="Enter your email" size="25">
+
+                        <br><br>
+
+                        <label for="uname">Telegram username</label><br>
+                        <input class="inp" type="text" name="uname" id="uname" placeholder="@username">
+
+                        <br><br>
+
+                        <label for="pno">Phone number</label><br>
+                        <select class="inp" name="country-code" id="pno">
+                            <option value="+1">+1</option>
+                            <option value="+153">+153</option>
+                            <option value="+190">+190</option>
+                            <option value="+251">+251</option>
+                            <option value="+300">+300</option>
+                        </select>
+                        <input class="inp" type="tel" name="pno" id="pno" minlength="9" maxlength="9" placeholder="enter your phone number">
+
+                        <br><br>
+
+                        <label for="msg">Message </label><span class="max-chars">(500 characters max)</span> <span class="req">*</span> <br>
+                        <textarea class="inp" name="msg" id="msg" maxlength="500" rows="4" cols="45" placeholder="Your message..."></textarea>                        
+                        <br><br>
+                        <input class="inp submit-button" type="submit">
+                    </form>
+                </div>
+                <div class="cta-container-about last">
+                    <a href="../index.html">
+                        <button class="home-button cta-button-about">Go to Home</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="left-footer">
+            <p>Zeamanuel Mebit</p>
+            <p>AAU</p>
+            <p>AAiT/CTBE</p>
+            <p>Addis Ababa, Ethiopia</p>
+        </div>
+        <div class="middle-footer">
+            <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
+        </div>
+        <div class="right-footer">
+            <p>Reach me through</p>
+            <div class="contact-container">
+                <div class="email-img contact-list">
+                    <img src="../images/contact-link-imgs/gmail-logo-removebg-preview.PNG" alt="gmail-logo">
+                </div>
+                <p class="email">
+                    <a href="">mebitzeamanuel@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="phone-img contact-list">
+                    <img src="../images/contact-link-imgs/phone-call-white-icon.png" alt="phone-icon">
+                </div>
+                <p>+251 94 840 3954</p>
+            </div>
+            <ul class="contact-list">
+                <li>
+                    <a href="https://github.com/boanergaes" target="_blank">
+                        <img src="../images/contact-link-imgs/github-logo-white.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank">
+                        <img src="../images/contact-link-imgs/instagram-logo-white-logo-instagram-png-putih-transparent-removebg-preview.PNG" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank">
+                        <img src="../images/contact-link-imgs/linkedin-square-white-icon-transparent-png-701751694974206tsxnbf2rft-removebg-preview.PNG" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank">
+                        <img src="../images/contact-link-imgs/telegram-icon-removebg-preview.png" alt="telegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/the_aman12" target="_blank">
+                        <img src="../images/contact-link-imgs/twitter-x-logo-white-logo-icon-hd-png-11690219118qg0z3hfxjk-removebg-preview.PNG" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/u/boanergaes/" target="_blank">
+                        <img src="../images/contact-link-imgs/leetcode-logo-white-removebg-preview.PNG" alt="leetcode">
+                    </a>
+                </li>
+            </ul>  
+        </div>
+    </footer>
+</body>
+</html>

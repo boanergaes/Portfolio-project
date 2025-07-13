@@ -1,183 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zeaman's Portfolio</title>
-    </head>
-    <body>
-        <header>
-            <div>
-                <!-- logo -->
-                <h1>MY PORTFOLIO</h1>
-                <!-- current page -->
-                <span>Home</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio/home</title>
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="left-header">
+                <a href="index.html">
+                    <div class="logo-part">
+                        <h1>MY PORTFOLIO</h1>
+                        <p>boanergaes</p>
+                    </div>
+                </a>
             </div>
-            <div>
-                <!-- navigation links -->
+            <div class="right-header">
                 <nav>
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    <ul class="nav">
+                        <a href="./index.html"><li class="curr-page">Home</li></a>
+                        <a href="pages/about.html"><li>About</li></a>
+                        <a href="pages/contact.html"><li>Contact</li></a>
                     </ul>
                 </nav>
             </div>
-        </header>
-        <section>
-            <div>
-                <img src="./images/lion-profile.jpg" alt="my profile picture">
-            </div>
-            <div>
-                <h2>Zeamanuel Mebit Kebede</h2>
-                <p style="margin:0 0 10px 0">boanergaes</p>
+        </div>
+    </header>
 
-                <div>
-                    <abbr title="Addis Ababa University">AAU</abbr> | <abbr title="Addis Ababa Institute of Technology">AAiT</abbr>/<abbr title="College of Technology and Built Environment">CTBE</abbr>
-                </div>
-                <div>
-                    <span>Software Engineering</span> | <span>Front-End Developer</span> | <span>Problem Solver</span> | <span>Team Lead</span> | <span>Tech Enthusiast</span>
-                </div>
-                <p>An Engineer set out to forge the future of Ethiopia currently at Addis Ababa University.</p>
+    <!-- internal page nav bar -->
+    <nav class="in-page">
+
+    </nav>
+    
+    <div class="hero-wrapper">
+        <section class="hero">
+            <img src="./images/lion-on-cliff.PNG" alt="profile-pic">
+            <h2>Zeamanuel Mebit Kebede</h2>
+            <p>boanergaes</p>
+            <p class="email">
+                <a href="">mebitzeamanuel@gmail.com</a>
+            </p>
+            <p class="aau">
+                <abbr title="Addis Ababa University">AAU</abbr> | <abbr title="Addis Ababa Institute of Technology">AAiT</abbr>/<abbr title="College of Technology and Built Environment">CTBE</abbr>
+            </p>
+            <p class="titles">
+                <span>Engineer</span> | <span>Software Developer</span> | <span>Student</span> | <span>Front-End Dev</span> | <span>WEB</span> | <span>Competitive Programmer</span> | <span>Tech</span> | <span>Christian</span>
+            </p> 
+            <p>An Engineer set out to try his best to forge the future of his Country!</p>     
+            <ul class="contact-list">
+                <li>
+                    <a href="https://github.com/boanergaes" target="_blank">
+                        <img src="./images/contact-link-imgs/github-logo-white.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank">
+                        <img src="./images/contact-link-imgs/instagram-logo-white-logo-instagram-png-putih-transparent-removebg-preview.PNG" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank">
+                        <img src="./images/contact-link-imgs/linkedin-square-white-icon-transparent-png-701751694974206tsxnbf2rft-removebg-preview.PNG" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank">
+                        <img src="./images/contact-link-imgs/telegram-icon-removebg-preview.png" alt="telegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/the_aman12" target="_blank">
+                        <img src="./images/contact-link-imgs/twitter-x-logo-white-logo-icon-hd-png-11690219118qg0z3hfxjk-removebg-preview.PNG" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/u/boanergaes/" target="_blank">
+                        <img src="./images/contact-link-imgs/leetcode-logo-white-removebg-preview.PNG" alt="leetcode">
+                    </a>
+                </li>
+            </ul>  
+        </section>
+    </div>
+
+    <div class="intro-wrapper">
+        <section class="intro">
+            <div class="left-para">
+                <p>
+                    <strong>Hello there,</strong> <br><br>
+                    I'm Zeamanuel Mebit, currently a third-year Software Engineering student at Addis Ababa University. Right now, I'm on my journey to becoming a Web Developer — halfway through the Front-End side of things. 
+                    This portfolio gives you everything you need to know about me. Hope you enjoy exploring it!
+                </p>
+            </div>
+            <div class="right-para">
+                <p>
+                    <strong>I Am,</strong> <br><br>
+                    Interested in both Front-End and Back-End, though my current focus is on Front-End development. I'm also into Data Structures and Algorithms, and I actively practice competitive programming on LeetCode — solved quite a few problems there. 
+                    I’ve worked on projects both solo and as part of a team. Always open to learning more and growing as a developer.
+                </p>
+            </div>
+            <div class="left-para">
+                <p>
+                    <strong>Open To,</strong> <br><br>
+                    I am currently open to any job or internship opportunity i could find. Also if anyone has a project i could contribute to or if anyone want to contribute on any of the projects am working on, I am more than happy to work together. Checkout my portfolio and feel free to contact me at any time.
+                </p>
             </div>
         </section>
-        <section>
+    </div>
+
+    <section class="langs">
+        <div>
+            <h3>Languages I Learned</h3>
             <div>
-                <!-- list of languages i learned -->
-                <ul>
-                    <li><img src="./images/Python-logo-removebg-preview.png" alt="python"></li>
-                    <li><img src="./images/js-logo-removebg-preview.png" alt="javascript"></li>
-                    <li><img src="./images/cpp-logo-removebg-preview.png" alt="c++"></li>
-                    <li><img src="./images/java-logo-removebg-preview.png" alt="java"></li>
-                    <li><img src="./images/html-logo-removebg-preview.png" alt="HTML"></li>
-                    <li><img src="./images/css-logo-removebg-preview.png" alt="CSS"></li>
-                    <li><img src="./images/pgsql-logo-removebg-preview.png" alt="postgreSQL"></li>
-                    <li><img src="./images/git-logo-removebg-preview.png" alt="git"></li>
-                    <li><img src="./images/github-logo-removebg-preview.png" alt="GitHub"></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quas inventore tempora ipsa eius maxime odio amet autem quo laudantium, vel, modi doloremque mollitia enim, necessitatibus quod. Consequatur, eaque distinctio.</p>.
-            <div>
-                <h4>Education Highlights</h4>
-                <ul>
-                    <li>Addis Ababa University: Bsc in Software Engineering</li>
-                    <li>Udacity: Programming Fundamentals & Front-End basics</li>
-                    <li>Nexus Tutorial: Bootcamp for Front-End Developement</li>
-                    <li>The Odin Project: Front-End Development</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Skills Highlights</h4>
-                <ol>
-                    <li>
-                        SoftWare Engineering Fundamentals: <span>OOP</span> <span>DSA</span> <span>Database</span> <span>Front-End Dev</span> <span>Networking basics</span> 
-                    </li>
-                    <li>
-                        Front-End: <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
-                    </li>
-                    <li>
-                        Programming Languages: <span>Python</span> <span>C++</span> <span>Java</span>
-                    </li>
-                    <li>
-                        Database: <span>PostgreSQL</span>
-                    </li>
-                    <li>
-                        Source Control: <span>Git</span> <span>GitHub</span>
-                    </li>
-                    <li>
-                        Competitive Programming: <span>LeetCode</span>
-                    </li>
-                    <li>
-                        Soft Skills: <span>Team Work</span> <span>Leadership</span> <span>Critical Thinking</span> <span>Problem Solving</span> <span>Communication</span>
-                    </li>
-                </ol>
-            </div>
-            <div>
-                <h4>Projects Highlights</h4>
-                <ul>
-                    <li>
-                        <div>
-                            <div>
-                                <h5>MiniGit</h5>
-                                <p>A group project: A CLI based light weight Version Control inspired by Git.</p>
-                                <p>Lang: <span>C++</span></p>
-                            </div>
-                            <div>
-                                <a href="https://github.com/boanergaes/MiniGitProject" target="_blank"><button>Checkout repo »</button></a>
-                            </div>
+                <div class="upper-list lang-list">
+                    <!-- c++ -->
+                    <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/cpp-logo-removebg-preview.png" alt="c++">
                         </div>
-                    </li>
-                    <li>
-                        <div>
-                            <div>
-                                <h5>Password Generator App</h5>
-                                <p>A group project: A Python based GUI app to generate, save, and store infile a random password.</p>
-                                <p>Lang: <span>Python</span></p>
-                            </div>
-                            <div>
-                                <button>Checkout repo »</button>
-                            </div>
+                        <p>C++</p>
+                    </div>
+                    <!-- java -->
+                     <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/java-logo-removebg-preview.png" alt="java">
                         </div>
-                    </li>
-                </ul>
+                        <p>JAVA</p>
+                     </div>
+                     <!-- javascript -->
+                     <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/js-logo-removebg-preview.png" alt="javascript">
+                        </div>
+                        <p>JAVASCRIPT</p>
+                     </div>
+                     <!-- python -->
+                     <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/Python-logo-removebg-preview.png" alt="python">
+                        </div>
+                        <p>PYTHON</p>
+                     </div>
+                </div>
+                <div class="lower-list lang-list">
+                    <!-- html -->
+                    <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/html-logo-removebg-preview.png" alt="html">
+                        </div>
+                        <p>HTML</p>
+                    </div>
+                    <!-- css -->
+                    <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/css-logo-removebg-preview.png" alt="CSS">
+                        </div>
+                        <p>CSS</p>
+                    </div>
+                    <!-- postgreSql -->
+                    <div class="lang-card">
+                        <div class="img-container">
+                            <img src="./images/langs-logo/pgsql-logo-removebg-preview-edtd.PNG" alt="postgreSql">
+                        </div>
+                        <p>PostgreSQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <h3>Project Highlights</h2>
+        <div>
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="./images/project-images/version-control-black.png" alt="minigit">
+                </div>
+                <div class="proj-text">
+                    <div class="text">
+                        <h2 class="proj-title">Minigit</h2>
+                        <p>A simple weight version control system inspired by Git. A group project. I learned a ton from this project like how git works, different data structures and algorithms and how to collaborate with teams on Github and much more.</p>
+                        <p>Lang: C++</p>
+                    </div>
+                    <div class="proj-button">
+                        <a href="https://github.com/boanergaes/MiniGitProject" target="_blank"><button>Checkout Repo »</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="./images/project-images/password-img.jpg" alt="password-generator">
+                </div>
+                <div class="proj-text">
+                    <div class="text">
+                        <h2 class="proj-title">Password Generator</h2>
+                        <p>A GUI app for generating random strong passwords. Group project. It can copy the password to clipboard, save the password in a file. It helped me understand about OOP (Object Oriented Programming) and how to make GUI apps using TkInter in Python.</p>
+                        <p>Lang: PYTHON</p>
+                    </div>
+                    <div class="proj-button">
+                        <a href="https://github.com/boanergaes/passwordGenerator-GUI" target="_blank"><button>Checkout Repo »</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="./images/project-images/portfolio-img.jpg" alt="password-generator">
+                </div>
+                <div class="proj-text">
+                    <div class="text">
+                        <h2 class="proj-title">Portfolio</h2>
+                        <p>My Portfolio website where people can see what i've done and find all my contacts. Solo project. It helped me improve my skills of Front-End developement.</p>
+                        <p>Lang: HTML  CSS</p>
+                    </div>
+                    <div class="proj-button">
+                        <a href="https://github.com/boanergaes/Portfolio-project" target="_blank"><button>Checkout Repo »</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="farewell-wrapper">
+        <section class="farewell">
+            <div class="cta-section">
+                <div class="cta-container">
+                    <h2>Want to know more?</h2>
+                    <div class="cta-card">
+                        <div class="cta-text">
+                            <p>Checkout my GitHub!</p>
+                        </div>
+                        <div>
+                            <a href="https://github.com/boanergaes" target="_blank">
+                                <button class="cta-button">Go to my GitHub »</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cta-card">
+                        <div class="cta-text">
+                            <p>Checkout my About page!</p>
+                        </div>
+                        <div>
+                            <a href="./pages/about.html">
+                                <button class="cta-button">Go to About page »</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cta-card">
+                        <div class="cta-text">
+                            <p>Checkout my Contact page!</p>
+                        </div>
+                        <div>
+                            <a href="./pages/contact.html">
+                                <button class="cta-button">Contact me »</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-section">
+                <div class="review-container">
+                    <h3>Review!</h3>
+                    <p><label for="review">How did you find my portfolio?</label></p>
+                    <form action="" class="sat-lvls">
+                        <div>
+                            <input type="radio" name="satisfaction" id="review" value="4">🤩
+                        </div>
+                        <div>
+                            <input type="radio" name="satisfaction" id="review" value="3">😊
+                        </div>
+                        <div>
+                            <input type="radio" name="satisfaction" id="review" value="2">😐
+                        </div>
+                        <div>
+                            <input type="radio" name="satisfaction" id="review" value="1">😟
+                        </div>
+                        <div>
+                            <input type="radio" name="satisfaction" id="review" value="0">😡
+                        </div>
+                    </form>
+                    <div class="submit-button">
+                        <input type="submit" name="submit" id="submit">
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-            <div>
-                <h3>Call To Action</h3>
-                <div>
-                    <p>Want to see more projects? <a href="https://github.com/boanergaes" target="_blank"> Checkout my GitHub »</a></p>
+    </div>
+
+    <footer>
+        <div class="left-footer">
+            <p>Zeamanuel Mebit</p>
+            <p>AAU</p>
+            <p>AAiT/CTBE</p>
+            <p>Addis Ababa, Ethiopia</p>
+        </div>
+        <div class="middle-footer">
+            <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
+        </div>
+        <div class="right-footer">
+            <p>Reach me through</p>
+            <div class="contact-container">
+                <div class="email-img contact-list">
+                    <img src="./images/contact-link-imgs/gmail-logo-removebg-preview.PNG" alt="gmail-logo">
                 </div>
-                <div>
-                    <p>Want to know more about me? <a href="about.html">Checkout my About Page »</a></p>
+                <p class="email">
+                    <a href="">mebitzeamanuel@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-container">
+                <div class="phone-img contact-list">
+                    <img src="./images/contact-link-imgs/phone-call-white-icon.png" alt="phone-icon">
                 </div>
-                <div>
-                    <p>Want to Contact me? <a href="contact.html">Checkout my Contact Page »</a></p>
-                </div>
+                <p>+251 94 840 3954</p>
             </div>
-        </section>
-        <section>
-            <h3>Fav Quote That Inspires Me</h3>
-            <blockquote>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam autem similique. Molestiae, voluptatibus? Hic, fugit laborum excepturi adipisci consequuntur dolorem! Magni, quam ratione ut voluptates minus ullam omnis mollitia.
-            </blockquote>
-        </section>
-        <footer>
-            <div>
-                <p>Zeamanuel Mebit</p>
-                <p>AAU</p>
-                <p>AAiT/CTBE</p>
-                <p>Addis Ababa, Ethiopia</p>
-            </div>
-            <div>
-                <p>© 2025 Zeamanuel Mebit · Feel free to fork and build upon this</p>
-            </div>
-            <div>
-                <p>Reach out through</p>
-                <p>mebitzeamanuel@gmail.com</p>
-                <!-- list of contact links -->
-                <ul>
-                    <li>
-                        <a href="https://github.com/boanergaes" target="_blank"><img src="./images/github-logo-removebg-preview.png" alt="github"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank"><img src="./images/ig-logo-removebg-preview.png" alt="instagram"></a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank"><img src="./images/tg-logo-removebg-preview.png" alt="telegram"></a>
-                    </li>
-                    <li>
-                        <a href="https://x.com/the_aman12" target="_blank"><img src="./images/x-logo-removebg-preview.png" alt="X"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank"><img src="./images/linkedin-logo-removebg-preview.png" alt="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="https://leetcode.com/u/boanergaes/" target="_blank"><img src="./images/leetcode-logo-removebg-preview.png" alt="leetcode"></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    </body>
+            <ul class="contact-list">
+                <li>
+                    <a href="https://github.com/boanergaes" target="_blank">
+                        <img src="./images/contact-link-imgs/github-logo-white.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_ze_aman/?hl=en" target="_blank">
+                        <img src="./images/contact-link-imgs/instagram-logo-white-logo-instagram-png-putih-transparent-removebg-preview.PNG" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/zeamanuel-mebit-1a9063306/" target="_blank">
+                        <img src="./images/contact-link-imgs/linkedin-square-white-icon-transparent-png-701751694974206tsxnbf2rft-removebg-preview.PNG" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/the_lion_of_j_u_d_a_h" target="_blank">
+                        <img src="./images/contact-link-imgs/telegram-icon-removebg-preview.png" alt="telegram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/the_aman12" target="_blank">
+                        <img src="./images/contact-link-imgs/twitter-x-logo-white-logo-icon-hd-png-11690219118qg0z3hfxjk-removebg-preview.PNG" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://leetcode.com/u/boanergaes/" target="_blank">
+                        <img src="./images/contact-link-imgs/leetcode-logo-white-removebg-preview.PNG" alt="leetcode">
+                    </a>
+                </li>
+            </ul>  
+        </div>
+    </footer>
+</body>
 </html>
