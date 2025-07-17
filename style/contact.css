@@ -1,3 +1,8 @@
+/* to have the curve effect on the top and bottom */
+section {
+    background-color: hsl(0, 0%, 9%);
+}
+
 .inner-wrapper .form-section {
     width: 450px;
     padding: 30px;
@@ -31,7 +36,7 @@
     scale: 1.06;
 }
 
-.cta-container-about.last {
+.cta-container.last {
     background: none;
     box-shadow: none;
 }
