@@ -43,7 +43,7 @@ button:hover {
 header {
     display: flex;
     justify-content: center;
-    padding: 20px 30px;
+    padding: 20px 40px;
     background-color: hsl(0, 0%, 9%);
     color: hsl(189, 60%, 82%);
 }
@@ -103,14 +103,6 @@ nav {
 
 .right-header .menu {
     display: none;
-    font-size: 26px;
-    font-weight: bold;
-    transform: rotate(90deg);
-    border-radius: 50%;
-}
-
-.right-header .menu:hover {
-    background-color: hsl(0, 0%, 20%);
 }
 
 /*====== footer part =======*/
@@ -188,7 +180,7 @@ a img:hover {
 
 .inner-wrapper>div {
     border-radius: 35px;
-    padding: 30px 15px;
+    padding: 40px 15px;
     margin: 26px 0;
     background-color: white;
     box-shadow: 2px 2px 2px hsla(0, 0%, 0%, .3);
@@ -233,9 +225,14 @@ a img:hover {
     }
     .right-header .menu {
         display: block;
+        font-size: 26px;
+        font-weight: bold;
+        transform: rotate(90deg);
+        cursor: pointer;
     }
+
     .right-header .menu:hover {
-        background-color: hsl(0, 0%, 20%);
+        opacity: .8;
     }
 }
 
